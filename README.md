@@ -18,7 +18,7 @@ To use `nsall`, follow these steps:
 ## Usage
 Once installed, you can use nsall to resolve and print hostnames from a CIDR block. For example:
 
-   ```bash
+   ```
    nsall --help
    ```
 
