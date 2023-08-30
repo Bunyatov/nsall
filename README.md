@@ -19,7 +19,7 @@ To use `nsall`, follow these steps:
 Once installed, you can use nsall to resolve and print hostnames from a CIDR block. For example:
 
 ```bash
-nsall -v 172.16.0.0/12
+nsall --help
 ```
 nsall --help
 usage: nsall [-h] [-v] cidr
@@ -32,3 +32,9 @@ positional arguments:
 options:
   -h, --help     show this help message and exit
   -v, --verbose  Print IP address along with hostname
+
+examles 
+```bash
+nsall 10.10.20.0/24
+nsall -v 172.16.0.0/12
+```
