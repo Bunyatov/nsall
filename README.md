@@ -18,23 +18,23 @@ To use `nsall`, follow these steps:
 ## Usage
 Once installed, you can use nsall to resolve and print hostnames from a CIDR block. For example:
 
-```bash
-nsall --help
-```
-nsall --help
-usage: nsall [-h] [-v] cidr
+   ```bash
+   nsall --help
+   ```
 
-Resolve and print unique hostnames from a CIDR block
+   usage: nsall [-h] [-v] cidr
+   
+   Resolve and print unique hostnames from a CIDR block
+   
+   positional arguments:
+     cidr           CIDR block to scan for hostnames
+   
+   options:
+     -h, --help     show this help message and exit
+     -v, --verbose  Print IP address along with hostname
 
-positional arguments:
-  cidr           CIDR block to scan for hostnames
-
-options:
-  -h, --help     show this help message and exit
-  -v, --verbose  Print IP address along with hostname
-
-examles 
-```bash
-nsall 10.10.20.0/24
-nsall -v 172.16.0.0/12
-```
+   examles 
+   ```bash
+   nsall 10.10.20.0/24
+   nsall -v 172.16.0.0/12
+   ```
