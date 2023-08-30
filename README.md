@@ -20,8 +20,7 @@ Once installed, you can use nsall to resolve and print hostnames from a CIDR blo
 
    ```
    nsall --help
-   ```
-
+   
    usage: nsall [-h] [-v] cidr
    
    Resolve and print unique hostnames from a CIDR block
@@ -32,6 +31,7 @@ Once installed, you can use nsall to resolve and print hostnames from a CIDR blo
    options:
      -h, --help     show this help message and exit
      -v, --verbose  Print IP address along with hostname
+```
 
    examles 
    ```bash
