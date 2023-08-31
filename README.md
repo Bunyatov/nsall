@@ -6,8 +6,6 @@ A Python script to resolve and print unique hostnames from a CIDR block.
 
 To use `nsall`, follow these steps:
 
-1. Clone the repository:
-
    ```bash
    git clone https://github.com/Bunyatov/nsall.git
    cd nsall
