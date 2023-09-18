@@ -31,7 +31,7 @@ Once installed, you can use nsall to resolve and print hostnames from a CIDR blo
      -v, --verbose  Print IP address along with hostname
 ```
 
-   examles 
+   examples 
    ```bash
    nsall 10.10.20.0/24
    nsall -v 172.16.0.0/12
